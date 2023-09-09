@@ -102,27 +102,62 @@ header .nav-links li:last-child {
 
 
 
-/* Style untuk footer */
+/* Style the footer container */
 .footer {
     background-color: #333;
+    /* Background color for the footer */
     color: #fff;
-    padding: 40px 0;
+    /* Text color for the footer */
+    padding: 20px;
+    /* Add some padding to the footer */
+    text-align: center;
+    /* Center-align text in the footer */
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Style the footer information */
+.footer-info {
+    margin-bottom: 20px;
+    /* Add some space between the information and social icons */
 }
 
-.footer-logo img {
+/* Style the social media icons */
+.footer a {
+    margin: 0 10px;
+    /* Add some space between the social icons */
+    text-decoration: none;
+    /* Remove underlines from the links */
+    color: #fff;
+    /* Text color for the social icons */
+}
+
+/* Style the social media icons on hover */
+.footer a:hover {
+    opacity: 0.8;
+    /* Reduce opacity on hover for a subtle effect */
+}
+
+/* Style the social media icons */
+.footer a {
+    margin: 0 10px;
+    /* Add some space between the social icons */
+    text-decoration: none;
+    /* Remove underlines from the links */
+    color: #fff;
+    /* Text color for the social icons */
+}
+
+/* Style the social media icons on hover */
+.footer a:hover {
+    opacity: 0.8;
+    /* Reduce opacity on hover for a subtle effect */
+}
+
+/* Make the images smaller */
+.footer a img {
+    width: 30px;
+    /* Adjust the width to your desired size */
     height: 30px;
-    margin-right: 10px;
-}
-
-.footer-info p {
-    font-size: 14px;
-    margin-top: 10px;
+    /* Adjust the height to your desired size */
 }
 
 /*  */
