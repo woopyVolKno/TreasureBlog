@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url(../img/reebot\ trzz.png);
+    /* Ganti dengan URL gambar latar belakang yang Anda inginkan */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 80px;
+    margin: 0;
+    /* Hapus padding-top untuk lapisan warna mengisi area header */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Warna lapisan gelap dan kejelasan (opacity) yang Anda inginkan */
+    z-index: -1;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #7895CB;
+    padding: 1rem 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #13111A;
+    display: inline-block;
+    /* Menjadikan elemen .logo inline-block */
+    vertical-align: middle;
+    /* Mengatur penempatan vertikal dengan gambar */
+}
+
+header .logo img {
+    width: 30px;
+    /* Ubah nilai ini sesuai dengan ukuran yang Anda inginkan */
+    height: auto;
+    /* Agar gambar tetap proporsional */
+    margin-right: 10px;
+    /* Anda dapat menyesuaikan jarak dari teks "TREASURE" */
+
+}
+
+header .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-links li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+header .nav-links li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #13111A;
+    text-decoration: none;
+}
+
+header .nav-links li a:hover {
+    color: #C5DFF8;
+}
+
+header .nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a.active {
+    background-color: #7895CB;
+    /* Warna latar belakang yang berbeda */
+    color: #FFF9E9;
+    /* Warna teks yang berbeda */
+}
+
+
+
+/* Style untuk footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-info p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/*  */
+.container {
+    padding: 0 100px;
+}
+
+.text-green {
+    color: #7895CB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFF;
+    margin-bottom: 1rem;
+}
+
+.hero-left p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #FFFF;
+    margin-bottom: 2rem;
+}
+
+.hero-right .hero-img {
+    width: 400px;
+}
+
+.btn-primary {
+    background-color: #7895CB;
+    color: #FFF9E9;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #C5DFF8;
+    color: #13111A;
+}

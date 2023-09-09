@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F1F6F9;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #7895CB;
+    padding: 1rem 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #13111A;
+    display: inline-block;
+    /* Menjadikan elemen .logo inline-block */
+    vertical-align: middle;
+    /* Mengatur penempatan vertikal dengan gambar */
+}
+
+header .logo img {
+    width: 30px;
+    /* Ubah nilai ini sesuai dengan ukuran yang Anda inginkan */
+    height: auto;
+    /* Agar gambar tetap proporsional */
+    margin-right: 10px;
+    /* Anda dapat menyesuaikan jarak dari teks "TREASURE" */
+
+}
+
+header .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-links li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+header .nav-links li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #13111A;
+    text-decoration: none;
+}
+
+header .nav-links li a:hover {
+    color: #C5DFF8;
+}
+
+header .nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a.active {
+    background-color: #7895CB;
+    /* Warna latar belakang yang berbeda */
+    color: #FFF9E9;
+    /* Warna teks yang berbeda */
+}
+
+.nav-links li a.active {
+    background-color: #7895CB;
+    /* Warna latar belakang yang berbeda */
+    color: #FFF9E9;
+    /* Warna teks yang berbeda */
+}
+
+
+h1, .h2 {
+    color: #13111A;
+    margin: 80px 10px 10px;
+    /* Tambahkan margin atas yang sesuai */
+    text-align: center;
+}
+
+h3, h4{
+    color: #13111A;
+    margin: 5px;
+}
+
+
+p {
+    text-indent: 30px;
+    line-height: 1.5;
+    font-family: verdana;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.container {
+    padding: 0 100px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #13111A;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.hero-left p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #13111A;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.hero-right .hero-img {
+    width: 480px;
+}
+
+.btn-primary {
+    background-color: #7895CB;
+    color: #FFF9E9;
+    padding: 0.8rem 1.5rem;
+    align-content: center;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 5rem;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #C5DFF8;
+    color: #13111A;
+}
